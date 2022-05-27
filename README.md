@@ -1,2 +1,2 @@
-# Dise-o
+# Disenio
 Trabajo final de Diseño
