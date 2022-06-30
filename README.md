@@ -71,3 +71,9 @@ Nest is an MIT-licensed open source project. It can grow thanks to the sponsors 
 ## License
 
 Nest is [MIT licensed](LICENSE).
+
+## Fix issue with MySQL 8
+
+ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY 'root'
+
+FLUSH PRIVILEGES;

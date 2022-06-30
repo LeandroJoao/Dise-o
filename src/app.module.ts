@@ -4,10 +4,10 @@ import { AppService } from './app.service';
 import { PadresModule } from "./mothers/mothers.module";
 import { TypeOrmModule } from "@nestjs/typeorm";
 import { SpecialistsModule } from './Specialist/specialists.module';
-import { ChatsModule } from './chat/chat.module';
+import { FeedbacksModule } from './Feedback/chat.module';
 
 @Module({
-  imports: [PadresModule, SpecialistsModule, ChatsModule, TypeOrmModule.forRoot()],
+  imports: [PadresModule, SpecialistsModule, FeedbacksModule, TypeOrmModule.forRoot()],
   controllers: [AppController],
   providers: [AppService],
 })
